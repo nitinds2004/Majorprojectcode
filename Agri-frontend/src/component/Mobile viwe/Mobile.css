@@ -1,0 +1,21 @@
+.mobile_viwe{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* background-color: rgb(250, 255, 253); */
+}
+.article p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:x-large;
+    text-decoration: underline;
+}
+.article{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

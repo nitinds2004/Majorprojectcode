@@ -1,0 +1,76 @@
+.container{
+    margin-top: 15px;
+}
+.container h1{
+    /* text-decoration: underline; */
+    margin: 2px;
+    margin-bottom: 10px;
+    /* font-size:xx-large */
+}
+.main_con .right{
+
+    border: 2px solid white;
+    width: 50vw;
+    height: 40vh;
+    margin: 10px;
+    padding: 10px;
+    color: rgb(71, 72, 73);
+    border-radius: 7px;
+    background-color: rgb(223, 224, 226);
+}
+.location{
+    /* border: 2px solid white; */
+    margin-left: 10px;
+    border-radius: 7px;
+    background-color: rgb(222, 225, 227);
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 2px;
+}
+.main_con{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+.left img{
+    width: 306px;
+    border-radius: 7px;
+    border: 2px solid rgb(222, 219, 219);
+    margin-top: 9px;
+}
+
+.right p{
+    color: black;
+}
+
+.weather_time p{
+ font-size:x-small;
+
+}
+.weat_tem{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    gap:30px ;
+}
+.weat_tem .tem{
+    font-size: xx-large;
+    font-weight: 600;
+    color: black;
+}
+.weat_tem img{
+    width: 120px;
+}
+.weat_tem .ti_1 h3,.weather_time h3{
+    color: black;
+}
+.item{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

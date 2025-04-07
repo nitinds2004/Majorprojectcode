@@ -1,0 +1,32 @@
+.form_main{
+
+    
+    /* margin:  30px 50px 30px 50px; */
+    border-radius: 7px;
+    background-color: rgb(222, 220, 218);
+    border: 2px solid black;padding: 5px;
+    
+    
+}
+.image_con{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 5px;   
+}
+
+.form_main form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+    gap: 5px;
+}
+
+.form_main form input{
+    border: none;
+    border-bottom: 2px solid rgb(85, 83, 83);
+    border-radius: 7px;
+    padding: 5px;
+}
+

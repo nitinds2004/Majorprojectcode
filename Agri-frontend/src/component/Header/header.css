@@ -1,0 +1,24 @@
+.header_img{
+   width: 98vw;
+   height: 75vh;
+   position: absolute;
+
+
+}
+.header_con{
+   width: 98vw;
+   margin-top: 5px;
+   border-radius: 10px;
+   height: 77vh;
+
+}
+.header_con p{
+   position: relative;
+}
+
+.header .s1{
+   margin-top: 7px;
+   height: 2px;
+   background-color: rgb(50, 48, 48);
+   border-radius: 10px;
+}

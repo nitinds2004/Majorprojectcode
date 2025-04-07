@@ -1,0 +1,32 @@
+.product_main{
+    margin: 10px;
+
+}
+.contaier{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: rgb(214, 211, 207);
+    border-radius: 7px;
+    min-height: 30vh;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.butoon button{
+    
+    margin: 20px;
+    padding: 7px 20px 7px 20px;
+    border-radius: 7px;
+    background-color: rgb(115, 115, 176);
+    color: rgb(232, 216, 216);
+}
+
+.butoon button:hover{
+    background-color: blue;
+    scale: 1.1;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}

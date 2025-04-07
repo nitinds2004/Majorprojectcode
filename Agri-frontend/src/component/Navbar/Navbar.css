@@ -1,0 +1,30 @@
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    /* height: 10vw; */
+    border: 2px solid  rgb(180, 184, 186);
+    background-color: rgb(180, 184, 186);
+    padding: 2px;
+    border-radius: 5px;
+}
+.nav_list{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav_right button{
+ padding: 10px 20px 10px 20px;
+ margin: 5px;
+ border-radius: 10px;
+ border: none;
+}
