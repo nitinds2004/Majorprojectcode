@@ -80,7 +80,7 @@
 .price_cart{
     display: flex;
     justify-content: space-around;
-    gap: 50px;
+    /* gap: 50px; */
     border-bottom: 2px solid rgb(145, 140, 140);
     border-radius: 7px;
     margin: 5px;

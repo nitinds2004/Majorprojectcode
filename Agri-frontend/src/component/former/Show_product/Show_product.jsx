@@ -13,8 +13,8 @@ const Show_product = () => {
         <div className="contaier">
             <div className="pra">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit inventore neque ipsum a eaque similique quos perferendis sint nisi obcaecati sequi ullam fuga optio mollitia temporibus dolor, tempore odio voluptatem!</div>
             <div className="butoon">
-                <button onClick={()=>addproduct?setaddproduct(false):setaddproduct(true)}>Add product</button>
-                <button onClick={()=>orderdetail?setorderdetail(false):setorderdetail(true)}>Order Details</button>
+                <button onClick={()=>addproduct?setaddproduct(false):setaddproduct(true)&&orderdetail?setorderdetail(false):setorderdetail(false)}>Add product</button>
+                <button onClick={()=>orderdetail?setorderdetail(false):setorderdetail(true)&&addproduct?setaddproduct(false):setaddproduct(false)}>Order Details</button>
                 {addproduct?<Add_from />:<></>}
                 {orderdetail?<Order />:<></>}
                 
